@@ -367,8 +367,8 @@ static const CGFloat SVProgressHUDDefaultAnimationDuration = 0.15;
             _errorImage = errorImage;
         }
 
-        _ringThickness = 2.0f;
-        _ringRadius = 18.0f;
+        _ringThickness = 3.5f;
+        _ringRadius = 22.0f;
         _ringNoTextRadius = 24.0f;
         
         _cornerRadius = 14.0f;
