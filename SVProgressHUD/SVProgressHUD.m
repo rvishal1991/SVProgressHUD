@@ -321,17 +321,26 @@ static const CGFloat SVProgressHUDDefaultAnimationDuration = 0.15;
     if((self = [super initWithFrame:frame])) {
         _isInitializing = YES;
         
+        //svprogress changes
+
         self.userInteractionEnabled = NO;
         _backgroundColor = [UIColor clearColor];
-        _foregroundColor = [UIColor blackColor];
-        _backgroundLayerColor = [UIColor colorWithWhite:0 alpha:0.4];
         
+        _foregroundColor = [UIColor colorWithRed:24/255.0 green:122/255.0 blue:131/255.0 alpha:1.0];
+
+       // _foregroundColor = [UIColor blackColor];
+       // _backgroundLayerColor = [UIColor colorWithWhite:0 alpha:0.4];
+        
+        _backgroundLayerColor = [UIColor clearColor];
+
         self.alpha = 0.0f;
         self.activityCount = 0;
         
         // Set default values
         _defaultMaskType = SVProgressHUDMaskTypeNone;
-        _defaultStyle = SVProgressHUDStyleLight;
+        //_defaultStyle = SVProgressHUDStyleLight;
+        _defaultStyle = SVProgressHUDStyleCustom;
+
         _defaultAnimationType = SVProgressHUDAnimationTypeFlat;
         
         if ([UIFont respondsToSelector:@selector(preferredFontForTextStyle:)]) {
