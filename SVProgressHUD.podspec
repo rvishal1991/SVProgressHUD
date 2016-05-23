@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'SVProgressHUDVishal'
+  s.name     = 'SVProgressHUD'
   s.version  = '2.0.3'
   s.ios.deployment_target = '6.1'
   s.tvos.deployment_target = '9.0'
