@@ -326,7 +326,7 @@ static const CGFloat SVProgressHUDDefaultAnimationDuration = 0.15;
         self.userInteractionEnabled = NO;
         _backgroundColor = [UIColor clearColor];
         
-        _foregroundColor = [UIColor colorWithRed:24/255.0 green:122/255.0 blue:131/255.0 alpha:1.0];
+        _foregroundColor = [UIColor colorWithRed:33/255.0 green:175/255.0 blue:175/255.0 alpha:1.0];
 
        // _foregroundColor = [UIColor blackColor];
        // _backgroundLayerColor = [UIColor colorWithWhite:0 alpha:0.4];
